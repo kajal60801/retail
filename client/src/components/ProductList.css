@@ -1,0 +1,157 @@
+.home-product-sections {
+  width: 100%;
+}
+
+.product-section {
+  width: 100%;
+
+  padding: 18px 0 8px;
+}
+
+.section-heading {
+  display: flex;
+
+  align-items: flex-end;
+  justify-content: space-between;
+
+  padding: 0 18px 12px;
+}
+
+.section-heading h2 {
+  margin: 0;
+
+  color: var(--text-primary);
+
+  font-size: 22px;
+  line-height: 1.2;
+
+  font-weight: 850;
+}
+
+.section-eyebrow {
+  display: block;
+
+  color: var(--accent-green);
+
+  font-size: 10px;
+  font-weight: 800;
+
+  text-transform: uppercase;
+
+  letter-spacing: 0.8px;
+
+  margin-bottom: 4px;
+}
+
+.view-all-text {
+  color: var(--accent-green);
+
+  font-size: 12px;
+  font-weight: 800;
+
+  white-space: nowrap;
+
+  cursor: pointer;
+}
+
+.product-count {
+  min-width: 28px;
+  height: 28px;
+
+  padding: 0 8px;
+
+  border-radius: 999px;
+
+  background: var(--bg-secondary);
+
+  color: var(--text-secondary);
+
+  font-size: 11px;
+  font-weight: 800;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.horizontal-product-list {
+  display: flex;
+
+  gap: 12px;
+
+  overflow-x: auto;
+
+  padding: 3px 18px 18px;
+
+  scrollbar-width: none;
+
+  scroll-snap-type: x proximity;
+}
+
+.horizontal-product-list::-webkit-scrollbar {
+  display: none;
+}
+
+.horizontal-product-list > * {
+  scroll-snap-align: start;
+
+  flex: 0 0 auto;
+}
+
+.no-products {
+  min-height: 300px;
+
+  padding: 50px 20px;
+
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  justify-content: center;
+
+  text-align: center;
+
+  color: var(--text-secondary);
+}
+
+.no-products-icon {
+  font-size: 55px;
+
+  opacity: 0.5;
+
+  margin-bottom: 10px;
+}
+
+.no-products h3 {
+  color: var(--text-primary);
+
+  margin-bottom: 5px;
+}
+
+.no-products p {
+  font-size: 13px;
+}
+
+@media (min-width: 768px) {
+  .product-section {
+    padding-top: 24px;
+  }
+
+  .section-heading {
+    max-width: 1200px;
+    margin: 0 auto;
+
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .horizontal-product-list {
+    max-width: 1200px;
+    margin: 0 auto;
+
+    padding-left: 30px;
+    padding-right: 30px;
+
+    gap: 18px;
+  }
+}

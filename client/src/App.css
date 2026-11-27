@@ -1,0 +1,32 @@
+.app-container {
+  min-height: 100vh;
+
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+
+  background: var(--bg-primary);
+
+  padding-bottom: 82px;
+}
+
+.store-search-section {
+  width: 100%;
+
+  background: var(--bg-primary);
+}
+
+.main-content {
+  width: 100%;
+
+  flex: 1;
+
+  margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+  .main-content {
+    max-width: 1250px;
+  }
+}

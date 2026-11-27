@@ -1,0 +1,52 @@
+[
+  {
+    "id": "prod-102",
+    "name": "Aashirvaad Shuddh Chakki Atta (5kg)",
+    "category": "Flour (Atta)",
+    "price": 230,
+    "originalPrice": 250,
+    "stockQty": 15,
+    "inStock": true,
+    "description": "Whole wheat flour made from fresh chakki grinding."
+  },
+  {
+    "id": "prod-103",
+    "name": "Tata Salt Iodized Salt (1kg)",
+    "category": "Salt",
+    "price": 28,
+    "originalPrice": 30,
+    "stockQty": 50,
+    "inStock": true,
+    "description": "Vacuum evaporated iodized salt."
+  },
+  {
+    "id": "prod-104",
+    "name": "India Gate Basmati Rice Feast Rozzana (1kg)",
+    "category": "Rice",
+    "price": 120,
+    "originalPrice": 140,
+    "stockQty": 20,
+    "inStock": true,
+    "description": "Aromatic long grain basmati rice."
+  },
+  {
+    "id": "prod-105",
+    "name": "Parle-G Gold Biscuits (1kg Pack)",
+    "category": "Biscuits",
+    "price": 100,
+    "originalPrice": 110,
+    "stockQty": 40,
+    "inStock": true,
+    "description": "Classic glucose biscuits."
+  },
+  {
+    "id": "prod-1785928215980",
+    "name": "namkeen",
+    "category": "Rice",
+    "price": 500,
+    "originalPrice": 450,
+    "stockQty": 10,
+    "inStock": true,
+    "description": "hii"
+  }
+]

@@ -1,0 +1,137 @@
+* {
+  box-sizing: border-box;
+
+  margin: 0;
+  padding: 0;
+
+  -webkit-tap-highlight-color: transparent;
+}
+
+:root,
+[data-theme="colorful"] {
+  --bg-primary: #f8fafb;
+  --bg-secondary: #eef3f3;
+
+  --card-bg: #ffffff;
+
+  --text-primary: #172022;
+  --text-secondary: #687578;
+
+  --border-color: #e2e8e8;
+
+  --accent-purple: #0f766e;
+  --accent-purple-hover: #0d5f59;
+
+  --accent-yellow: #f59e0b;
+
+  --accent-green: #0f9f76;
+
+  --header-bg: #ffffff;
+
+  --btn-cart-bg: #0f9f76;
+  --btn-cart-text: #ffffff;
+
+  --btn-primary-bg: #0f9f76;
+  --btn-primary-text: #ffffff;
+}
+
+[data-theme="dark"] {
+  --bg-primary: #091311;
+  --bg-secondary: #121d1b;
+
+  --card-bg: #172321;
+
+  --text-primary: #f5faf9;
+  --text-secondary: #9aadaa;
+
+  --border-color: #293b38;
+
+  --accent-purple: #2dd4bf;
+  --accent-purple-hover: #14b8a6;
+
+  --accent-yellow: #f59e0b;
+
+  --accent-green: #10b981;
+
+  --header-bg: #101b19;
+
+  --btn-cart-bg: #10b981;
+  --btn-cart-text: #ffffff;
+
+  --btn-primary-bg: #10b981;
+  --btn-primary-text: #ffffff;
+}
+
+[data-theme="light"] {
+  --bg-primary: #f7faf9;
+  --bg-secondary: #edf4f2;
+
+  --card-bg: #ffffff;
+
+  --text-primary: #172022;
+  --text-secondary: #667573;
+
+  --border-color: #dbe5e2;
+
+  --accent-purple: #0f766e;
+  --accent-purple-hover: #0d5f59;
+
+  --accent-yellow: #d97706;
+
+  --accent-green: #059669;
+
+  --header-bg: #ffffff;
+
+  --btn-cart-bg: #059669;
+  --btn-cart-text: #ffffff;
+
+  --btn-primary-bg: #0f766e;
+  --btn-primary-text: #ffffff;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family:
+    Inter,
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    sans-serif;
+
+  background: var(--bg-primary);
+
+  color: var(--text-primary);
+
+  line-height: 1.5;
+
+  transition:
+    background-color 0.25s ease,
+    color 0.25s ease;
+}
+
+body,
+button,
+input {
+  font-family: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+input {
+  outline: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+#root {
+  min-height: 100vh;
+}
